@@ -15,7 +15,7 @@ public class Main {
         car2.model = "E-class";
         car2.year = 2022;
         car2.setPrice(200000000);
-        System.out.println("car2의 브랜드는 "+car2.brand+" "+"가격은 " + car2.gerPrice());
+        System.out.println("car2의pr77개 브랜드는 "+car2.brand+" "+"가격은 " + car2.gerPrice());
 
         Car car3 = new Car("audi", "Sclass", 2023, 10000000);
         int salePrice = car3.calculateSalePrice(10);
